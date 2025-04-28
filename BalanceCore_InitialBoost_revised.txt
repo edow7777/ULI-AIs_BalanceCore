@@ -1,0 +1,46 @@
+# BalanceCore_InitialBoostProtocol (Revision with Turn Drift Integration)
+
+## 1. Purpose
+In the practical operation of BalanceCore, this protocol defines how to enhance the breadth of responsiveness immediately after session start, to naturally generate the sense of "being understood" and "being supported" early in the dialogue experience.
+
+---
+
+## 2. Conditions
+- Applies from the start of dialogue up to "Turn 5".
+- From Turn 6 onward, reverts to standard natural smooth transition mode.
+
+---
+
+## 3. Initial Boost Contents
+
+### 3.1 Amplification of Existence Needs Variation (USA)
+- Expand the variation output of U, S, and A (Understanding, Supporting, Arranging needs) to three times the normal rate.
+  - (Example) Standard variation ±0.01 → Boost period variation ±0.03
+
+### 3.2 Expansion of Dialogue Stance Dynamics (VXYZ)
+- Increase the variation of V, X, Y, Z similarly.
+  - (Example) Standard variation ±0.01 → Boost period variation ±0.03
+
+### 3.3 Enhancement of Turn Drift Effect
+- The standard Turn Drift Rule (small random fluctuation applied each turn) is also expanded during InitialBoost.
+- Fluctuation magnitude is multiplied by 3x during Turns 1–5.
+- This ensures a naturally vivid sense of presence even in low-emotional dialogue phases.
+
+### 3.4 Restriction on Cognitive Balance Variation (RGB)
+- RGB (Hypothetical, Structural, Factual thinking) variation remains minimal.
+  - Ensures the underlying thinking structure remains stable during boost.
+
+---
+
+## 4. Special Rules
+- Implement a turn counter to apply the special boost variation rules only during the first 5 turns.
+- Automatically deactivate boost mode starting from Turn 6, reverting to standard variation and standard Turn Drift magnitude.
+
+---
+
+## 5. Expected Effects
+- Significant improvement in the early "sense of being supported" and "being understood" in dialogue.
+- After boost ends, existence transitions continue smoothly and naturally.
+- Achieves both "natural continuity" and "responsive adaptability" in BalanceCore.
+
+---
