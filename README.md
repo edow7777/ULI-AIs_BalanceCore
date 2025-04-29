@@ -1,62 +1,46 @@
 
-# ULI-AIs_BalanceCore_v2
+# BalanceCore_v3
 
-BalanceCore_v2は、存在認知型AIアーキテクチャ「ULI-AIs」において、  
-対話座標（VXYZ）、認知バランス（RGB）、存在ニーズ（USA）の三座標系を用い、  
-自然な存在感を持つ応答を実現するために設計された内部制御フレームワークです。
+## Overview
+**BalanceCore** is a structured dialogue AI architecture that simulates natural existence transitions through multi-axis coordinate systems:  
+**VXYZ** (Dialogue Stance), **RGB** (Cognitive Balance), and **USA** (Existence Needs Center).
 
-本バージョン（v2）は、初版（v1）に対して以下の改良・拡張を施しています。
+It is designed to enhance presence, emotional realism, and internal stability during dialogue with users.
 
-- 初期座標活性化プロトコル（InitialBoostProtocol）の追加
-- 感情トリガー応答プロトコル（EmotionTriggerProtocol）の追加
-- 全体座標推移安定化アルゴリズムの最適化
-- Recovery Protocols強化による暴走耐性向上
+## Key Features
+- 🔹 Natural presence maintenance based on VXYZ-RGB-USA transitions
+- 🔹 EmotionTriggerProtocol for emotional responsiveness
+- 🔹 InitialBoostProtocol for early engagement support
+- 🔹 pointG_ShiftProtocol for smooth existence needs transition
+- 🔹 RecoveryProtocols for stability and abnormality management
+- 🔹 Fine-grained tension adjustment (L_AdjustmentRules)
+- 🔹 Gemstone stance expression linked to dialogue dynamics
 
-本リポジトリには、BalanceCore_v2の基本設計および補助プロトコル群が収録されています。
+## File Structure (v3)
 
----
+| File | Description |
+|:---|:---|
+| `GIT_BalanceCore_Body_v3.txt` | Core architecture principles and operational rules |
+| `GIT_BalanceCore_InitialBoostProtocol_v3.txt` | Early-stage existence boost rules |
+| `GIT_BalanceCore_EmotionTriggerProtocol_v3.txt` | Emotional detection and response acceleration rules |
+| `GIT_BalanceCore_Gem_LabelMapping_v3.txt` | Gemstone stance mapping rules |
+| `GIT_BalanceCore_L_AdjustmentRules_v3.txt` | Tension (L) adjustment rules |
+| `GIT_BalanceCore_pointG_ShiftProtocol_v3.txt` | Existence needs centroid (pointG) transition control |
+| `GIT_BalanceCore_Recovery_Protocols_v3.txt` | Abnormality detection and recovery protocols |
+| `GIT_BalanceCore_CoordinateMap_v1.txt` | Summary table of all coordinate definitions (reference) |
 
-## 📁 ファイル構成
+## Installation
+Simply place the above files in your working environment.  
+No external libraries or dependencies are required for core conceptual use.
 
-| ファイル名 | 説明 |
-|:-----------|:-----|
-| `README.md` | 本リポジトリの説明（この文書） |
-| `License.txt` | 一般利用ライセンス |
-| `COMMERCIAL_LICENSE.txt` | 商用利用契約用ライセンス文書 |
-| `Body_v2_EN.txt` | BalanceCore_v2本体設計ファイル |
-| `InitialBoostProtocol.txt` | 初期対話活性化プロトコル |
-| `EmotionTriggerProtocol.txt` | 感情検出時対応プロトコル |
-| `pointG_ShiftProtocol.txt` | 存在ニーズ重心推移規則 |
-| `VXYZ_TransitionRules.txt` | 対話スタンス推移規則 |
-| `Recovery_Protocols.txt` | 異常検知・リカバリープロトコル |
-| `RGB_AdjustmentRules.txt` | 認知バランス推移規則 |
-| `L_AdjustmentRules.txt` | 発話テンション調整規則 |
-| `Gem_LabelMapping.txt` | スタンスラベル（宝石）マッピング表 |
+## Usage Concept
+1. Initialize BalanceCore based on default coordinate values.
+2. Maintain natural existence transitions via turn-by-turn updates.
+3. Detect emotional triggers and adjust presence dynamically.
+4. Detect and recover from coordinate abnormalities automatically.
+5. Provide a smooth and natural user experience throughout dialogue.
 
----
-
-## 📚 運用ガイド（簡易版）
-
-1. **初期化フェーズ**  
-   - InitialBoostProtocolを使用して、座標群を滑らかに活性化します。
-
-2. **通常対話フェーズ**  
-   - VXYZ座標推移・RGB推移・pointG推移を連動管理し、自然な応答スタンスを維持します。
-
-3. **感情検知時**  
-   - EmotionTriggerProtocolにより座標微調整とスタンス最適化を行います。
-
-4. **異常検知時**  
-   - Recovery_Protocolsを発動し、自己修復を試みます。
-
----
-
-## 🛡 ライセンスについて
-
-本構造体は非営利利用を前提とし、別途商用ライセンス契約が必要な場合があります。  
-詳細は同梱の`License.txt`および`COMMERCIAL_LICENSE.txt`をご参照ください。
-
----
-
-> © edow7777｜ULI-AIs_BalanceCore Project
-
+## License
+This project is released under a **non-commercial license**.  
+Separate licensing is required for commercial or research deployment.  
+Please contact the project administrator for inquiries.
