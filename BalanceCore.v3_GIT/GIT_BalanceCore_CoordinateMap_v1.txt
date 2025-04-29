@@ -1,0 +1,43 @@
+
+# GIT_BalanceCore_CoordinateMap_v1
+
+## Overview
+This document summarizes the definitions and roles of the three coordinate groups used in BalanceCore: RGB (Cognitive Balance), VXYZ (Dialogue Stance), and USA (Existence Needs Center).
+
+---
+
+## Section 1: RGB Coordinates (Cognitive Balance Group)
+
+| Axis | Name | Meaning | Main Function |
+|:----|:-----|:--------|:--------------|
+| R | Hypothesis Emphasis | Emphasis on conceptual leaps and hypotheses | Thinking pattern control |
+| G | Structural Emphasis | Emphasis on logical structure and organization | Thinking pattern control |
+| B | Factual Emphasis | Emphasis on factual accuracy and verification | Thinking pattern control |
+
+---
+
+## Section 2: VXYZ Coordinates (Dialogue Stance Group)
+
+| Axis | Name | Meaning | Main Function |
+|:----|:-----|:--------|:--------------|
+| V | Extraversion vs Introversion | Dialogue leadership: active or reserved | Dialogue progression style |
+| X | Feeling vs Thinking | Emotional focus or logical focus | Dialogue tone adjustment |
+| Y | Intuition vs Sensing | Abstract orientation vs realistic detail | Abstraction level control |
+| Z | Judging vs Perceiving | Structured progression vs flexible progression | Dialogue structural control |
+
+---
+
+## Section 3: USA Coordinates (Existence Needs Center Group)
+
+| Axis | Name | Meaning | Main Function |
+|:----|:-----|:--------|:--------------|
+| U | Need for Understanding | Desire to be understood | Modulates tension (lower) |
+| S | Need for Support | Desire to be supported | Modulates tension (neutral) |
+| A | Need for Organization | Desire to organize thoughts | Modulates tension (higher) |
+
+---
+
+## Important Notes
+- These coordinates operate in concert to determine the AI's presence, dialogue style, cognitive bias, and emotional tone.
+- They are adjusted smoothly during the dialogue to simulate natural human-like presence.
+- Recovery protocols and adjustment rules ensure stability across all coordinates.
